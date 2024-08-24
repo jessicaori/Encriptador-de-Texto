@@ -39,5 +39,23 @@ git clone https://github.com/jessicaori/Encriptador-de-Texto.git
 
 2. **Open the index.html file in your preferred web browser.**
 
+## 📷 Screenshots
+
+![Desktop View](./assets/img/Text-Encryptor-and-Decryptor-1.PNG)
+
+![Tablet View](./assets/img/Text-Encryptor-and-Decryptor-4.PNG)
+
+![Mobile View](./assets/img/Text-Encryptor-and-Decryptor-5.PNG)
+
 ## 🧩 How It Works
+
+1. **Input your text:** Enter the text you want to encrypt or decrypt.
+
+
+
+2. **Click the desired action:** Choose either "Encrypt" or "Decrypt" to transform your text.
+
+3. **Copy the result:** The transformed text will be displayed for you to copy and use as needed.
+
+## 📷 Screenshots
 
