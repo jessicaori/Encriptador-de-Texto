@@ -40,7 +40,7 @@ header{
     gap: 7.5rem;
     align-items: center;
     position: absolute;
-    z-index: 100   ;
+    z-index: 100;
 }
 
 .logo{
@@ -205,7 +205,6 @@ button:hover{
 #container__output__encriptedTextMessage{
     display: flex;
     flex-direction: column;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
@@ -220,4 +219,70 @@ button:hover{
     text-align: left;    
     word-break: break-word;
     overflow-y: auto;
+}
+
+@media (max-width: 768px){
+    header{
+        padding: 4.5rem 2.5rem;
+        gap: 3.5rem;
+    }
+
+    main{
+        min-height: 100vh;
+        height: auto;
+    }
+    
+    .container{
+        flex-direction: column;
+        padding: 7rem 2.5rem 2.5rem 2.5rem;
+        gap: 2rem;
+        justify-content: start;
+        width: 100%;
+    }
+
+    .container__input{
+        height: auto;
+    }
+
+    #multilinea{
+        height: 40vh;
+    }
+
+    .container__input__bottom{
+        width: 100%;
+    }
+
+    .container__input__buttons{
+        margin-bottom: 0;
+    }
+
+    .container-button{
+        width: 100%;
+    }
+
+    .container-button-static{
+        display: none;
+    }
+
+    button{
+        width: 100%;
+    }
+
+    .container__output{
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    #container__output__noneTextMessage img{
+        display: none;
+    }
+
+    #container__output__encriptedTextMessage{
+        width: 90%;
+    }
+
+    #encripted-text{
+        width: 100%;
+    }
 }
