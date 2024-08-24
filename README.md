@@ -75,10 +75,10 @@ git clone https://github.com/jessicaori/Encriptador-de-Texto.git
 
 **Developer:**
 
-<img src="./assets/img/Jessicaori.png" style="witdh:300px; height:300px">
+<img src="./assets/img/Jessicaori.png" style="witdh:200px; height:200px">
 
 Jessica Orihuela Rojas
 
 ## 📬 Contact
 
-For any questions or suggestions, reach out to [jessica.orihuela.rojas@gmail.com](maito:jessica.orihuela.rojas@gmail.com)
+For any questions or suggestions, reach out to **[jessica.orihuela.rojas@gmail.com](mailto:jessica.orihuela.rojas@gmail.com)**
