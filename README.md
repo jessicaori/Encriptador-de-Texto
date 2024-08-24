@@ -1,5 +1,10 @@
 # 🔐 Text Encryptor & Decryptor
 
+## 📚 Index
+
+- [Project Description](#Project-Description)
+- [Project Description](#🚀-Project-Description)
+
 ## 🚀 Project Description
 
 Welcome to the Text Encryptor & Decryptor! This project allows you to securely encrypt and decrypt messages, ensuring that your confidential information remains protected.
@@ -7,7 +12,7 @@ Welcome to the Text Encryptor & Decryptor! This project allows you to securely e
 ## Project Status
 
 <p align="left">
-<img src="https://img.shields.io/badge/STATUS-EN%20DESAsROLLO-green">
+<img src="https://img.shields.io/badge/STATUS-FINISHED-green">
 </p>
 
 ## 🛠️ Functionalities
