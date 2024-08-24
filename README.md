@@ -2,8 +2,15 @@
 
 ## 📚 Index
 
-- [Project Description](#Project-Description)
-- [Project Description](#🚀-Project-Description)
+- [Project Description](#project-description)
+- [Project Status](#project-status)
+- [Functionalities](#functionalities)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Screenshots](#screenshots)
+- [How It Works](#how-it-works)
+- [Developed by](#developed-by)
+- [Contact](#contact)
 
 ## 🚀 Project Description
 
