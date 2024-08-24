@@ -71,11 +71,13 @@ git clone https://github.com/jessicaori/Encriptador-de-Texto.git
 
 3. **Copy the result:** The transformed text will be displayed for you to copy and use as needed.
 
-## 💻 
+## 💻 Developed by
 
 **Developer:**
+
 <img src="./assets/img/Jessicaori.png" style="witdh:300px; height:300px">
-jessica Orihuela Rojas
+
+Jessica Orihuela Rojas
 
 ## 📬 Contact
 
