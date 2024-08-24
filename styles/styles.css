@@ -278,11 +278,38 @@ button:hover{
         display: none;
     }
 
+    #container__output__noneTextMessage h2, p{
+        width: 100%;
+    }
+
     #container__output__encriptedTextMessage{
         width: 90%;
     }
 
     #encripted-text{
         width: 100%;
+    }
+}
+
+@media (max-width: 376px){
+    header{
+        padding: 1.5rem 1rem;
+        gap: 1.5rem;
+    }
+
+    header h1{
+        font-size: 1.5rem;
+    }
+
+    .container{
+        padding: 3rem 1rem 2.5rem 1rem;
+    }
+
+    .container__input__buttons{
+        flex-direction: column;
+    }
+
+    #container__output__encriptedTextMessage{
+        width: 80%;
     }
 }
