@@ -2,20 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de texto | Alura Latam ORACLE</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <head>
+    <header>
         <img class="logo" src="./assets/img/Logo.png" alt="Alura Latam Logo">
         <h1>Encriptador de Texto</h1>
-    </head>
+    </header>
     <main>
         <section class="container">
             <div class="container__input">
-                <input id="textbox" type="text" class="container__inputbox" value="Ingrese el texto aquí">
+                <textarea id="multilinea" rows="4" cols="50">Escriba su texto aquí...</textarea>
                 <div class="container__input__bottom">
                     <div class="advice">
                         <img src="./assets/img/AdmirationSymbol.png" alt="">
@@ -34,7 +37,7 @@
                     <p>Ingresa el texto que desees encriptar o desencriptar.</p>
                 </div>
                 <div class="container__output__encriptedTextMessage">
-                    <p id="encripted-text"></p>
+                    <p id="encripted-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, debitis!</p>
                     <button class="container-button" id="copy">Copiar</button>
                 </div>
             </div>
