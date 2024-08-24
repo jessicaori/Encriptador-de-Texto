@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Encriptador de texto | Alura Latam ORACLE</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <head>
+        <img class="logo" src="./assets/img/Logo.png" alt="Alura Latam Logo">
+        <h1>Encriptador de Texto</h1>
+    </head>
+    <main>
+        <section class="container">
+            <div class="container__input">
+                <input id="textbox" type="text" class="container__inputbox" value="Ingrese el texto aquí">
+                <div class="container__input__bottom">
+                    <div class="advice">
+                        <img src="./assets/img/AdmirationSymbol.png" alt="">
+                        <p class="text-advice">Solo letras minúsculas y sin acentos</p>
+                    </div>
+                    <div class="container__input__buttons">
+                        <button class="container-button" id="encrypt">Encriptar</button>
+                        <button class="container-button" id="decrypt" disabled>Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container__output">
+                <div class="container__output__noneTextMessage">
+                    <img src="./assets/img/Character.png" alt="Seated character">
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <div class="container__output__encriptedTextMessage">
+                    <p id="encripted-text"></p>
+                    <button class="container-button" id="copy">Copiar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
