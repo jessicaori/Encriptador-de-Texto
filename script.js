@@ -8,7 +8,11 @@ function initialConditions(){
 
 function encrypt(){
     let text = document.getElementById('multilinea').value;
-    let encryptedText = "";
+    if(text == ''){
+        document.getElementById('container__output__noneTextMessage').style.display = 'flex';
+        document.getElementById('container__output__encriptedTextMessage').style.display = 'none';
+    } else {
+        let encryptedText = "";
     for (let i = 0; i<text.length; i++ ) {
         if(text[i]=='a'){
             encryptedText = encryptedText + 'ai';
@@ -24,19 +28,27 @@ function encrypt(){
             encryptedText = encryptedText + text[i];
         }
     }
-    document.getElementById('container__output__noneTextMessage').style.display = 'none';
-    document.getElementById('container__output__encriptedTextMessage').style.display = 'flex';
-    document.getElementById('encripted-text').innerHTML = encryptedText;
+        document.getElementById('container__output__noneTextMessage').style.display = 'none';
+        document.getElementById('container__output__encriptedTextMessage').style.display = 'flex';
+        document.getElementById('encripted-text').innerHTML = encryptedText;
+    }
 }
 
 function decrypt(){
     let text = document.getElementById('multilinea').value;
-    text = text.replaceAll('ai','a');
-    text = text.replaceAll('enter','e');
-    text = text.replaceAll('imes','i');
-    text = text.replaceAll('ober','o');
-    text = text.replaceAll('ufat','u');
-    document.getElementById('encripted-text').innerHTML = text;
+    if(text == ''){
+        document.getElementById('container__output__noneTextMessage').style.display = 'flex';
+        document.getElementById('container__output__encriptedTextMessage').style.display = 'none';
+    } else {
+        text = text.replaceAll('ai','a');
+        text = text.replaceAll('enter','e');
+        text = text.replaceAll('imes','i');
+        text = text.replaceAll('ober','o');
+        text = text.replaceAll('ufat','u');
+        document.getElementById('container__output__noneTextMessage').style.display = 'none';
+        document.getElementById('container__output__encriptedTextMessage').style.display = 'flex';
+        document.getElementById('encripted-text').innerHTML = text;
+    }
 }
 
 function copy() {
