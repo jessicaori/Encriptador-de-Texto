@@ -18,30 +18,31 @@
     <main>
         <section class="container">
             <div class="container__input">
-                <textarea id="multilinea" rows="4" cols="50">Escriba su texto aquí...</textarea>
+                <textarea id="multilinea" rows="4" cols="50"></textarea>
                 <div class="container__input__bottom">
                     <div class="advice">
                         <img src="./assets/img/AdmirationSymbol.png" alt="">
                         <p class="text-advice">Solo letras minúsculas y sin acentos</p>
                     </div>
                     <div class="container__input__buttons">
-                        <button class="container-button" id="encrypt">Encriptar</button>
+                        <button onclick="encrypt()" class="container-button" id="encrypt">Encriptar</button>
                         <button class="container-button" id="decrypt" disabled>Desencriptar</button>
                     </div>
                 </div>
             </div>
             <div class="container__output">
-                <div class="container__output__noneTextMessage">
+                <div id="container__output__noneTextMessage">
                     <img src="./assets/img/Character.png" alt="Seated character">
                     <h2>Ningún mensaje fue encontrado</h2>
                     <p>Ingresa el texto que desees encriptar o desencriptar.</p>
                 </div>
-                <div class="container__output__encriptedTextMessage">
+                <div id="container__output__encriptedTextMessage">
                     <p id="encripted-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, debitis!</p>
                     <button class="container-button" id="copy">Copiar</button>
                 </div>
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
