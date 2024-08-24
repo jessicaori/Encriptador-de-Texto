@@ -39,3 +39,18 @@ function decrypt(){
     document.getElementById('encripted-text').innerHTML = text;
 }
 
+function copy() {
+    let text = document.getElementById('encripted-text').innerText;
+
+    navigator.clipboard.writeText(text).then(function() {
+        document.getElementById('copy').innerHTML = '¡Copiado!'
+        document.getElementById('copy').style.backgroundColor = '#F3F5FC';
+        setTimeout(() => {
+            document.getElementById('copy').innerHTML = 'Copiar';
+            document.getElementById('copy').style.backgroundColor = '#FFFFFF';
+        }, 1000);
+    }).catch(function(err) {
+        alert('Error al copiar el texto: ', err);
+    });
+}
+
