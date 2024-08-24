@@ -27,6 +27,15 @@ function encrypt(){
     document.getElementById('container__output__noneTextMessage').style.display = 'none';
     document.getElementById('container__output__encriptedTextMessage').style.display = 'flex';
     document.getElementById('encripted-text').innerHTML = encryptedText;
-    
+}
+
+function decrypt(){
+    let text = document.getElementById('multilinea').value;
+    text = text.replaceAll('ai','a');
+    text = text.replaceAll('enter','e');
+    text = text.replaceAll('imes','i');
+    text = text.replaceAll('ober','o');
+    text = text.replaceAll('ufat','u');
+    document.getElementById('encripted-text').innerHTML = text;
 }
 
