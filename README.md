@@ -2,21 +2,21 @@
 
 ## 📚 Index
 
-- [Project Description](#project-description)
-- [Project Status](#project-status)
-- [Functionalities](#functionalities)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Screenshots](#screenshots)
-- [How It Works](#how-it-works)
-- [Developed by](#developed-by)
-- [Contact](#contact)
+- [Project Description](#-project-description)
+- [Project Status](#-project-status)
+- [Functionalities](#-functionalities)
+- [Technologies Used](#-technologies-used)
+- [Getting Started](#-getting-started)
+- [Screenshots](#-screenshots)
+- [How It Works](#-how-it-works)
+- [Developed by](#-developed-by)
+- [Contact](#-contact)
 
 ## 🚀 Project Description
 
 Welcome to the Text Encryptor & Decryptor! This project allows you to securely encrypt and decrypt messages, ensuring that your confidential information remains protected.
 
-## Project Status
+## 📖 Project Status
 
 <p align="left">
 <img src="https://img.shields.io/badge/STATUS-FINISHED-green">
