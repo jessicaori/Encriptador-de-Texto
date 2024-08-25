@@ -289,6 +289,10 @@ button:hover{
     #encripted-text{
         width: 100%;
     }
+
+    button:hover{
+        transform: translate(0px,0px);
+    }
 }
 
 @media (max-width: 376px){
